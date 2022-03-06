@@ -1,0 +1,22 @@
+=======================
+O que cada sinal procura
+
+\d - Dígitos [0-9]
+. - Qualquer caracter
+\qualquer coisa - Encontra exatamente o que quer depois da \
+\s - espaços em branco [ \t\r\n\f]
+\w - atalho para [A-Za-z0-9_]
+
+? - zero ou uma vez
++ - uma ou mais vezes
+* - zero ou mais vezes
+
+{n} - exatamente n vezes
+{n,} - no minimo n vezes
+{n, m} - no minimo n vezes e no maximo m vezes
+
+\d{n} - Informa quantas em seguida deve procurar
+\d{1,n} - Informa que pode ter de 1 a n vezes
+\.? ou \.{0,1}- Diz que o caracter é opcional
+[-.] - Classe de caracteres, procura os caracters dentro dos colchetes (não precisa usar o \)
+[1-3]\d - digito entre 1 e 3
